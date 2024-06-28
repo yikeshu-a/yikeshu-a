@@ -1,16 +1,14 @@
-## Hi there 👋
+# 你好
 
-<!--
-**yikeshu-a/yikeshu-a** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <span id="element"></span>
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+    strings: ['欢迎👏来到 ”烂番茄“ 的网站: https://github.com/yikeshu-a/，希望你能发现有趣🤔️的事物。', 'Welcome 👏 to the "Fanqie Lan" website: https://github.com/yikeshu-a/, hoping you can discover something interesting 🤔️.'],
+    typeSpeed: 60,
+    loop: true // 添加这一行以启用循环
+    });
+  </script>
